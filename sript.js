@@ -1,3 +1,5 @@
+"use strict";
+
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
@@ -25,4 +27,20 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+}
+
+window.onload = function() {
+var emulator = window.emulator = new V86Starter({
+        screen_container: document.getElementById("screen_container"),
+        bios: {
+            url: "v86/bios/seabios.bin",
+        },
+        vga_bios: {
+            url: "v86/bios/vgabios.bin",
+        },
+        cdrom: {
+            url: "images/linux.iso",
+        },
+        autostart: true,
+    });
 }
