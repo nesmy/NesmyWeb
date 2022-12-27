@@ -1,0 +1,12 @@
+{
+  "name": "prociusengine",
+  "version": "0.1.0",
+  "files": [
+    "prociusengine_bg.wasm",
+    "prociusengine.js",
+    "prociusengine.d.ts"
+  ],
+  "module": "prociusengine.js",
+  "types": "prociusengine.d.ts",
+  "sideEffects": false
+}

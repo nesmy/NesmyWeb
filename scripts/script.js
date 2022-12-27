@@ -1,4 +1,3 @@
-"use strict";
 
 // Modal Image Gallery
 function onClick(element) {
